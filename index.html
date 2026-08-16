@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akash Nadar — Backend / Full-Stack Engineer</title>
+<meta name="description" content="Akash Nadar — B.Sc. Computer Science student building full-stack MERN applications, focused on backend engineering, authentication and web security.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">akash<span class="accent">.</span>dev</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#top" data-route="/home">/home</a>
+      <a href="#about" data-route="/about">/about</a>
+      <a href="#skills" data-route="/skills">/skills</a>
+      <a href="#projects" data-route="/projects">/projects</a>
+      <a href="#education" data-route="/education">/education</a>
+      <a href="#contact" data-route="/contact">/contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Portfolio · Mumbai, India</p>
+      <h1>Akash Nadar</h1>
+      <p class="hero-role">B.Sc. Computer Science student, SIES College — building full-stack MERN applications with a focus on <span class="accent-text">backend engineering</span>, authentication and web security.</p>
+      <p class="hero-status">Currently building <strong>LocalConnect</strong>. Open to software engineering &amp; backend internships.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="https://github.com/akashzone" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/akashnadar-dev" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:akashnadar.dev@gmail.com" class="btn btn-outline">Email</a>
+      </div>
+    </div>
+
+    <div class="hero-response" aria-hidden="true">
+      <div class="response-bar">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="response-path">GET /profile HTTP/1.1</span>
+      </div>
+      <pre class="response-body"><code><span class="tok-key">HTTP/1.1</span> <span class="tok-status">200 OK</span>
+<span class="tok-key">Content-Type:</span> text/profile
+
+{
+  <span class="tok-key">"name"</span>: <span class="tok-str">"Akash Nadar"</span>,
+  <span class="tok-key">"role"</span>: <span class="tok-str">"B.Sc. CS Student — SIES College, Mumbai"</span>,
+  <span class="tok-key">"stack"</span>: <span class="tok-str">"MERN"</span>,
+  <span class="tok-key">"focus"</span>: [
+    <span class="tok-str">"Backend Engineering"</span>,
+    <span class="tok-str">"REST APIs"</span>,
+    <span class="tok-str">"Auth &amp; RBAC"</span>,
+    <span class="tok-str">"Web Security"</span>
+  ],
+  <span class="tok-key">"status"</span>: <span class="tok-str">"open_to_internships"</span>
+}</code></pre>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-hidden="true">scroll</a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="eyebrow">01 · About</p>
+    <div class="about-grid">
+      <p class="about-lead">Student → builder → still improving.</p>
+      <div class="about-body">
+        <p>Akash is a third-year B.Sc. Computer Science student at SIES College, Mumbai, interested in backend and full-stack web development.</p>
+        <p>He works primarily with the MERN stack and is currently focused on strengthening backend engineering, authentication, authorization, API security, and data structures &amp; algorithms.</p>
+        <p>He builds full projects — not tutorials — to understand how real applications actually work under the hood.</p>
+        <p>He's currently developing <strong>LocalConnect</strong>, a marketplace platform connecting local business owners with student developers, and is looking for a software engineering / backend internship where he can keep learning by contributing to real-world systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section section-alt" id="skills">
+  <div class="section-inner">
+    <p class="eyebrow">02 · Skills</p>
+    <h2 class="section-title">Working with</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <ul><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <ul><li>React.js</li><li>Tailwind CSS</li><li>Context API</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Backend</h3>
+        <ul><li>Node.js</li><li>Express.js</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Database</h3>
+        <ul><li>MongoDB</li><li>Mongoose</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Auth &amp; Security</h3>
+        <ul><li>JWT</li><li>bcrypt</li><li>Role-Based Access Control</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud &amp; Storage</h3>
+        <ul><li>Cloudinary</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <ul><li>Postman</li><li>Git / GitHub</li><li>VS Code</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Deployment</h3>
+        <ul><li>Render</li><li>Vercel</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <p class="eyebrow">03 · Projects</p>
+    <h2 class="section-title">Selected work</h2>
+
+    <!-- LocalConnect - in development, shown first -->
+    <article class="project project-active">
+      <div class="project-head">
+        <span class="req-line">GET /projects/localconnect <span class="req-version">HTTP/1.1</span></span>
+        <span class="status-badge status-processing">102 Processing</span>
+      </div>
+      <div class="project-body">
+        <h3>LocalConnect</h3>
+        <p class="project-desc">A marketplace platform connecting local business owners with student developers. Business owners post project requirements; developers discover projects and apply based on their skills. Separate roles for Business Owners, Developers and Admin.</p>
+        <p class="project-tag">Actively being developed — not a finished production application.</p>
+        <ul class="project-features">
+          <li>JWT auth with HTTP-only cookies</li>
+          <li>Role-Based Access Control (RBAC)</li>
+          <li>Business &amp; developer profiles, dashboards</li>
+          <li>Project posting, applications &amp; status management</li>
+          <li>Centralized error handling middleware</li>
+          <li>REST API testing via Postman</li>
+        </ul>
+        <p class="project-stack">React.js · Node.js · Express.js · MongoDB · Tailwind CSS</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub →</a>
+          <span class="btn btn-ghost btn-sm">Live demo — Coming Soon</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- SkillForge -->
+    <article class="project">
+      <div class="project-head">
+        <span class="req-line">GET /projects/skillforge <span class="req-version">HTTP/1.1</span></span>
+        <span class="status-badge status-ok">200 OK</span>
+      </div>
+      <div class="project-body">
+        <h3>SkillForge</h3>
+        <p class="project-desc">A full Learning Management System with separate student and instructor views — course creation, enrollment, video content and progress tracking behind role-locked routes.</p>
+        <ul class="project-features">
+          <li>15 frontend pages · 13+ role-locked routes</li>
+          <li>26 REST API endpoints across 7 backend services</li>
+          <li>6 MongoDB data models</li>
+          <li>JWT + bcrypt authentication, custom auth middleware</li>
+          <li>Role-Based Access Control</li>
+          <li>Cloudinary + Multer for video &amp; thumbnail uploads</li>
+        </ul>
+        <p class="project-stack">React.js · Node.js · Express.js · MongoDB</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub →</a>
+          <a href="#" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Conversa AI -->
+    <article class="project">
+      <div class="project-head">
+        <span class="req-line">GET /projects/conversa-ai <span class="req-version">HTTP/1.1</span></span>
+        <span class="status-badge status-ok">200 OK</span>
+      </div>
+      <div class="project-body">
+        <h3>Conversa AI</h3>
+        <p class="project-desc">A full-stack AI chat application built on Google's Gemini API, with conversation history and account-based access.</p>
+        <ul class="project-features">
+          <li>JWT + bcrypt authentication, protected routes</li>
+          <li>Express proxy server keeps the Gemini API key server-side</li>
+          <li>REST APIs to create, retrieve and delete conversations</li>
+          <li>Chat history persisted in MongoDB</li>
+        </ul>
+        <p class="project-stack">React.js · Node.js · Express.js · MongoDB · Gemini API</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub →</a>
+          <a href="#" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo →</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== CURRENT FOCUS ===== -->
+<section class="section section-alt focus-section">
+  <div class="section-inner">
+    <p class="eyebrow">04 · Now</p>
+    <h2 class="section-title">Currently focused on</h2>
+    <ul class="focus-list">
+      <li>Building LocalConnect</li>
+      <li>Backend engineering with Node.js &amp; Express</li>
+      <li>Authentication &amp; web security</li>
+      <li>REST API design</li>
+      <li>Role-Based Access Control</li>
+      <li>Data Structures &amp; Algorithms</li>
+      <li>Building secure, practical full-stack applications</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section" id="education">
+  <div class="section-inner">
+    <p class="eyebrow">05 · Education</p>
+    <div class="edu-block">
+      <div class="edu-head">
+        <h3>SIES College of Arts, Science and Commerce, Mumbai</h3>
+        <span class="edu-meta">Expected 2027</span>
+      </div>
+      <p class="edu-degree">B.Sc. Computer Science · CGPA 8.5</p>
+      <p class="edu-coursework"><span>Data Structures</span><span>Algorithms</span><span>Database Management Systems</span><span>Computer Networks</span><span>Operating Systems</span></p>
+    </div>
+
+    <div class="cert-block">
+      <h3 class="cert-heading">Certifications &amp; extras</h3>
+      <ul class="cert-list">
+        <li><span class="cert-name">IBM Web Development Fundamentals</span><span class="cert-meta">IBM SkillsBuild, 2025</span></li>
+        <li><span class="cert-name">Zeroday</span><span class="cert-meta">College-level hackathon — participant</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<footer class="footer" id="contact">
+  <div class="section-inner footer-inner">
+    <div class="footer-main">
+      <p class="eyebrow">06 · Contact</p>
+      <h2 class="section-title">Let's talk</h2>
+      <p class="footer-copy">Open to software engineering and backend internship opportunities. Reach out directly:</p>
+      <div class="footer-links">
+        <a href="mailto:akashnadar.dev@gmail.com">akashnadar.dev@gmail.com</a>
+        <a href="https://linkedin.com/in/akashnadar-dev" target="_blank" rel="noopener">linkedin.com/in/akashnadardev</a>
+        <a href="https://github.com/akashzone" target="_blank" rel="noopener">github.com/AkashxDev</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Akash Nadar</span>
+      <span>B.Sc. Computer Science · SIES College, Mumbai</span>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
