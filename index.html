@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Akash Nadar — Backend Developer</title>
-<meta name="description" content="Akash Nadar — B.Sc. Computer Science student building full-stack MERN applications, focused on backend engineering, authentication and web security.">
+<meta name="description" content="Akash Nadar — B.Sc. Computer Science student building full-stack MERN applications, focused on backend engineering, authentication/security, and completed real-world projects.">
 <link rel="icon" type="image/png" href="assets/ChatGPT%20Image%20Aug%2030,%202026,%2007_07_18%20AM.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
       <p class="eyebrow">Portfolio · Mumbai, India</p>
       <h1>Akash Nadar</h1>
       <p class="hero-role">B.Sc. Computer Science student, SIES College — building full-stack MERN applications with a focus on <span class="accent-text">backend engineering</span>, authentication and web security.</p>
-      <p class="hero-status">Currently building <strong>LocalConnect</strong>. Open to software engineering &amp; backend internships.</p>
+      <p class="hero-status">Built <strong>LocalConnect</strong>, a full-stack marketplace platform. Open to software engineering &amp; backend internships.</p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
         <a href="https://github.com/akashzone" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
@@ -85,7 +85,7 @@
         <p>Akash is a third-year B.Sc. Computer Science student at SIES College, Mumbai, interested in backend and full-stack web development.</p>
         <p>He works primarily with the MERN stack and is currently focused on strengthening backend engineering, authentication, authorization, API security, and data structures &amp; algorithms.</p>
         <p>He builds full projects — not tutorials — to understand how real applications actually work under the hood.</p>
-        <p>He's currently developing <strong>LocalConnect</strong>, a marketplace platform connecting local business owners with student developers, and is looking for a software engineering / backend internship where he can keep learning by contributing to real-world systems.</p>
+        <p>He built and completed <strong>LocalConnect</strong>, a full-stack MERN marketplace platform connecting local business owners with student developers, and is looking for a software engineering / backend internship where he can keep learning by contributing to real-world systems.</p>
       </div>
     </div>
   </div>
@@ -139,28 +139,32 @@
     <p class="eyebrow">03 · Projects</p>
     <h2 class="section-title">Selected work</h2>
 
-    <!-- LocalConnect - in development, shown first -->
+    <!-- LocalConnect - flagship project, shown first -->
     <article class="project project-active">
       <div class="project-head">
         <span class="req-line">GET /projects/localconnect <span class="req-version">HTTP/1.1</span></span>
-        <span class="status-badge status-processing">102 Processing</span>
+        <span class="status-badge status-ok">200 OK</span>
       </div>
       <div class="project-body">
         <h3>LocalConnect</h3>
-        <p class="project-desc">A marketplace platform connecting local business owners with student developers. Business owners post project requirements; developers discover projects and apply based on their skills. Separate roles for Business Owners, Developers and Admin.</p>
-        <p class="project-tag">Actively being developed — not a finished production application.</p>
+        <p class="project-desc">A full-stack marketplace platform connecting local business owners with students. Business owners post project requirements; students discover projects and apply based on their skills. Features separate roles for Business Owners, Students, and Admins.</p>
+        <p class="project-tag" style="color: var(--status-ok-fg); font-style: normal; font-weight: 500;">Completed full-stack MERN application.</p>
         <ul class="project-features">
-          <li>JWT auth with HTTP-only cookies</li>
-          <li>Role-Based Access Control (RBAC)</li>
-          <li>Business &amp; developer profiles, dashboards</li>
-          <li>Project posting, applications &amp; status management</li>
-          <li>Centralized error handling middleware</li>
-          <li>REST API testing via Postman</li>
+          <li>JWT authentication with HTTP-only cookies</li>
+          <li>Google OAuth authentication</li>
+          <li>Role-Based Access Control for Student, Business Owner &amp; Admin</li>
+          <li>Student &amp; Business Owner profiles with Cloudinary uploads</li>
+          <li>Project posting, discovery &amp; application workflow</li>
+          <li>Application lifecycle &amp; work submission management</li>
+          <li>Real-time chat using WebSockets</li>
+          <li>Reviews and reporting system</li>
+          <li>Admin dashboard for platform management</li>
+          <li>RESTful API with centralized error handling</li>
         </ul>
-        <p class="project-stack">React.js · Node.js · Express.js · MongoDB · Tailwind CSS</p>
+        <p class="project-stack">React.js · Node.js · Express.js · MongoDB · Tailwind CSS · Cloudinary · WebSockets</p>
         <div class="project-links">
-          <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub →</a>
-          <span class="btn btn-ghost btn-sm">Live demo — Coming Soon</span>
+          <a href="YOUR_GITHUB_REPOSITORY_URL" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub →</a>
+          <a href="https://localconnect-lake.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo →</a>
         </div>
       </div>
     </article>
@@ -221,13 +225,14 @@
     <p class="eyebrow">04 · Now</p>
     <h2 class="section-title">Currently focused on</h2>
     <ul class="focus-list">
-      <li>Building LocalConnect</li>
       <li>Backend engineering with Node.js &amp; Express</li>
       <li>Authentication &amp; web security</li>
       <li>REST API design</li>
       <li>Role-Based Access Control</li>
       <li>Data Structures &amp; Algorithms</li>
+      <li>SQL &amp; database fundamentals</li>
       <li>Building secure, practical full-stack applications</li>
+      <li>Preparing for software engineering / backend internship opportunities</li>
     </ul>
   </div>
 </section>
